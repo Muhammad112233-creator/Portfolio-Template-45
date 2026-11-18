@@ -1,0 +1,30 @@
+# Local-only publishing notes (do not upload)
+*.local.md
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Optional local tooling / generated caches
+node_modules/
+.venv/
+__pycache__/
+.cache/
+.parcel-cache/
+.vite/
+dist/
+build/
+out/
+coverage/
+*.log
+*.tmp
+*.zip
+
+# Never commit credentials or environment secrets
+.env
+.env.*
+!.env.example
